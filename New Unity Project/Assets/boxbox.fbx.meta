@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 19c0d83838b67f94d956438f6ce76874
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ball
+    100002: ball.001
+    100004: ball.002
+    100006: ball.003
+    100008: //RootNode
+    100010: boxbox
+    100012: Cone
+    100014: Cube
+    100016: Cube.001
+    100018: Mball
+    100020: Mball.001
+    100022: Mball.002
+    100024: Mball.003
+    100026: Mball.004
+    100028: Mball.005
+    100030: Sphere
+    100032: Sphere.001
+    100034: thumb
+    100036: thumb.001
+    100038: Torus
+    400000: ball
+    400002: ball.001
+    400004: ball.002
+    400006: ball.003
+    400008: //RootNode
+    400010: boxbox
+    400012: Cone
+    400014: Cube
+    400016: Cube.001
+    400018: Mball
+    400020: Mball.001
+    400022: Mball.002
+    400024: Mball.003
+    400026: Mball.004
+    400028: Mball.005
+    400030: Sphere
+    400032: Sphere.001
+    400034: thumb
+    400036: thumb.001
+    400038: Torus
+    2100000: CardboardBox
+    2100002: Material.002
+    2100004: Material.001
+    2100006: Material.003
+    2100008: Material.004
+    2100010: No Name
+    2300000: ball
+    2300002: ball.001
+    2300004: ball.002
+    2300006: ball.003
+    2300008: boxbox
+    2300010: Cone
+    2300012: Cube
+    2300014: Cube.001
+    2300016: Mball
+    2300018: Mball.001
+    2300020: Mball.002
+    2300022: Mball.003
+    2300024: Mball.004
+    2300026: Mball.005
+    2300028: Sphere
+    2300030: Sphere.001
+    2300032: thumb
+    2300034: thumb.001
+    2300036: Torus
+    3300000: ball
+    3300002: ball.001
+    3300004: ball.002
+    3300006: ball.003
+    3300008: boxbox
+    3300010: Cone
+    3300012: Cube
+    3300014: Cube.001
+    3300016: Mball
+    3300018: Mball.001
+    3300020: Mball.002
+    3300022: Mball.003
+    3300024: Mball.004
+    3300026: Mball.005
+    3300028: Sphere
+    3300030: Sphere.001
+    3300032: thumb
+    3300034: thumb.001
+    3300036: Torus
+    4300000: boxbox
+    4300002: Cube
+    4300004: Cube.001
+    4300006: Torus
+    4300008: ball
+    4300010: ball.001
+    4300012: ball.002
+    4300014: ball.003
+    4300016: Cone
+    4300018: Mball
+    4300020: Mball.001
+    4300022: Mball.002
+    4300024: Mball.003
+    4300026: thumb
+    4300028: thumb.001
+    4300030: Mball.004
+    4300032: Mball.005
+    4300034: Sphere
+    4300036: Sphere.001
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
