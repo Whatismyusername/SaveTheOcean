@@ -13,7 +13,7 @@ public class TriggerHandler : MonoBehaviour
     }
 
     private void LoadScores() {
-        SceneManager.LoadScene(0); // Load Score Screen
+        SceneManager.LoadScene(3); // Load Game Screen
     }
 
 }

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fusing.unity
     guid: 5f3d5d276605d2245b17b0f59557802d
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 8cdf7fbb3d40f89449f2e43b59ac2a1f
   m_configObjects: {}
