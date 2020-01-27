@@ -8,7 +8,8 @@ public class ScoreBoard : MonoBehaviour
     Text text;
     private float score = 0;
     [SerializeField] float scorePerSecond = 2f;
-    [SerializeField] float scorePerHit = 15f;
+    [SerializeField] float scorePerHit = 5f;
+    [SerializeField] float scorePerKill = 20f;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,11 @@ public class ScoreBoard : MonoBehaviour
         text.text = ((int)score).ToString();
     }
 
-    public void ScoreHit() {
+    public void ScorePerHit() {
         score += scorePerHit;
+    }
+    
+    public void ScorePerKill() {
+        score += scorePerKill;
     }
 }

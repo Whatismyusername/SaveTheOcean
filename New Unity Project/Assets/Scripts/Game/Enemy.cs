@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject deathFX;
     [SerializeField] Transform parent;
+    [SerializeField] int hits = 2;
     ScoreBoard scoreBoard;
     private void Start() {
         AddBoxCollider();
@@ -13,18 +14,28 @@ public class Enemy : MonoBehaviour
     }
 
     private void OnParticleCollision(GameObject other) {
-        // Play Death FX
-        GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity);
-        fx.transform.parent = parent;
-
-        // Add Scores
-        scoreBoard.ScoreHit();
         
-        Destroy(gameObject);
+        hits--;
+        scoreBoard.ScorePerHit();
+
+        if(hits < 1) {
+            Killed();
+        }
     }
 
     private void AddBoxCollider() {
         Collider boxCollider = gameObject.AddComponent<BoxCollider>();
         boxCollider.isTrigger = false;
+    }
+
+    private void Killed() {
+        // Play Death FX
+        GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity);
+        fx.transform.parent = parent;
+
+        // Add Scores
+        scoreBoard.ScorePerKill();
+        
+        Destroy(gameObject);
     }
 }
