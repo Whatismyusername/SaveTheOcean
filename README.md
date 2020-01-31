@@ -1,9 +1,8 @@
-# SaveTheOcean Site
- https://whatismyusername.github.io/SaveTheOcean/SaveTheOceanSite/index.html
-
 # SaveTheOcean
  Built using Unity 2018 | Practice Project
 
+# Site
+ https://whatismyusername.github.io/SaveTheOcean/SaveTheOceanSite/index.html
 
 # How To Open the Game:
  1) Download the Build Folder
