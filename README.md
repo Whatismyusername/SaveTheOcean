@@ -1,4 +1,4 @@
-# SaveTheOCean Site
+# SaveTheOcean Site
  https://whatismyusername.github.io/SaveTheOcean/SaveTheOceanSite/index.html
 
 # SaveTheOcean
