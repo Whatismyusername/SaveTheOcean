@@ -5,20 +5,19 @@
         <title>Save The Ocean</title>
 
         <!-- StyleSheet -->
-        <link href="header.css" rel="stylesheet">
-        <link href="navBar.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/navBar.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Sigmar+One|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 
         <!-- Scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="script.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/index.js"></script>
 
     </head>
     <body>
         <div id = "header">
-            <video autoplay loop>
-                <source src = "GamePlay.mp4" type = "video/mp4">
-            </video>
             <div class="centered">
                 <h1><span class="red">S</span>ave <span class="red">T</span>he <span class="red">O</span>cean</h1>
                 <hr>
@@ -31,9 +30,17 @@
             <h2 class = "navButton" id = "inactiveNav">I<br>N<br>F<br>O</h2>
         </div>
 
-        <div class = "maxWidth" id = "game">
-                <p></p>
-
+        <div id = "game">
+            <div id = "questionDiv">
+                <h1 id="question">How Much Can You Score </h1>
+                <h1><span class="red">S</span>aving <span class="red">T</span>he <span class="red">O</span>cean?</h1>
+            </div>
+            <video width = 900px loop controls muted>
+                <source src = "GamePlay.mp4" type = "video/mp4">
+            </video>
+            <button>
+                <a href="../Build/" download>Download Now</a>
+            </button>
         </div>
     </body>
 </html>

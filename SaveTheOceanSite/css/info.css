@@ -1,0 +1,21 @@
+.infoText {
+    color: rgb(255, 255, 255);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 4vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+#info {
+    width: 60vw;
+    margin: 5%;
+    padding-left:15vw;
+}
+
+#navBar, #info {
+    float: left;
+}
+#title {
+    font-size: 5vh;
+    text-align: center;
+}
